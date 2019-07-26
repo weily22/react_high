@@ -12,5 +12,14 @@
 
     .tabbar-item {
         flex: 1;
+        &.active {
+            color: #f65c5a;
+        }
+    }
+    a {
+        &:hover,
+        &:visited {
+            text-decoration: none;
+        }
     }
 }

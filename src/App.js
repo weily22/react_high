@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Tabar from './component/tabbar';
+import RouterMap from './router';
 import './styles/index.scss';
+import Tabbar from './component/tabbar'
 
 function App() {
   return (
     <div className="App">
-      <Tabar />
+      <RouterMap />
     </div>
   );
 }
