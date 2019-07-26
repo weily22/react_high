@@ -10,6 +10,10 @@
         display: flex;
     }
 
+    .tabbar-children {
+        margin-bottom: 50px;
+    }
+
     .tabbar-item {
         flex: 1;
         &.active {
